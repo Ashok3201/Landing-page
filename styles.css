@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Chiller, Ink Free, Arial, Helvetica, sans-serif;
+}
+
+/* header css start  */
+header {
+    background-color: #1f2937;
+
+}
+
+/* navbar css start  */
+nav {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding-top: 40px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* navbar css end  */
+
+/* hero section css start  */
+.hero-section {
+
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.hero-text h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-text a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.hero-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img img {
+    width: 545px;
+}
+
+/* hero section css start  */
+/* header css end  */
+
+/* main css start  */
+
+/* info and card section  css start  */
+.card-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.card-section h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards {
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+/* info and card section  css end  */
+
+/* testimonial  css start*/
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 80px 200px;
+}
+
+.testimonial p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+.testimonial h3 {
+    align-self: flex-end;
+
+}
+
+/* testimonial section end  */
+
+/* sign up section css start  */
+
+.signup-section {
+    max-width: 80vw;
+    margin: 80px auto;
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.signup-text {
+    color: #E5E7EB;
+}
+
+.signup-section a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding: 15px 40px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+/* sign up section css end  */
+
+/* footer css start  */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 40px;
+}
+
+footer .copyright-text {
+    color: #E5E7EB;
+    font-size: 21px;
+}
+
+/* footer css end  */
